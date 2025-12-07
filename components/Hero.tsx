@@ -1,10 +1,10 @@
 import React from 'react';
 import { PERSONAL_INFO, SOCIAL_LINKS } from '../constants';
-import { Download, ChevronRight } from 'lucide-react';
+import { Download } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
-    <section id="about" className="relative pt-20 pb-16 lg:pt-32 lg:pb-24 overflow-hidden">
+    <section id="about" className="relative pt-12 pb-16 lg:pt-24 lg:pb-24 overflow-hidden">
       {/* Background Blobs */}
       <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-sky-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob"></div>
       <div className="absolute top-0 right-40 w-96 h-96 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
