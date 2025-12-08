@@ -63,14 +63,16 @@
 {
   "imports": {
     "react": "https://aistudiocdn.com/react@^19.2.1",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
     "react/": "https://aistudiocdn.com/react@^19.2.1/",
-    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0"
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/"
   }
 }
 </script>
 </head>
   <body class="bg-slate-50 text-slate-900 antialiased selection:bg-accent selection:text-white overflow-x-hidden">
     <div id="root"></div>
+    <!-- Ten skrypt jest kluczowy dla Vercel/Vite aby uruchomić aplikację -->
+    <script type="module" src="/index.tsx"></script>
   </body>
 </html>
